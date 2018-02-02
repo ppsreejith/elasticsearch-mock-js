@@ -4,7 +4,7 @@
   "description": "Creates an elasticsearch server for mockign purposes",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node test.js"
   },
   "keywords": [
     "elasticsearch",
@@ -12,6 +12,10 @@
     "mock",
     "server"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppsreejith/elasticsearch-mock-js.git"
+  },
   "author": "ppsreejith",
   "license": "MIT",
   "dependencies": {
