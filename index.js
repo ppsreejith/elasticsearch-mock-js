@@ -5,7 +5,7 @@ const PORT = 9200;
 let _ES = false;
 
 const checkIfUp = (done, ct = 0) => {
-  spawn('curl', ['localhost:9200']).on('close', code => {
+  spawn('curl', [`localhost:${PORT}`]).on('close', code => {
     if (code === 0 || ct === 10) {
       return done(code);
     }
