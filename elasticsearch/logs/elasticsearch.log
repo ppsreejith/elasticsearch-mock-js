@@ -1,0 +1,39 @@
+[2018-02-02 18:27:38,847][INFO ][node                     ] [Mister Jip] version[2.4.1], pid[25435], build[c67dc32/2016-09-27T18:57:55Z]
+[2018-02-02 18:27:38,848][INFO ][node                     ] [Mister Jip] initializing ...
+[2018-02-02 18:27:40,142][INFO ][plugins                  ] [Mister Jip] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-02-02 18:27:40,210][INFO ][env                      ] [Mister Jip] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [7.4gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2018-02-02 18:27:40,211][INFO ][env                      ] [Mister Jip] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-02 18:27:40,214][WARN ][env                      ] [Mister Jip] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2018-02-02 18:27:44,292][INFO ][node                     ] [Mister Jip] initialized
+[2018-02-02 18:27:44,293][INFO ][node                     ] [Mister Jip] starting ...
+[2018-02-02 18:27:44,436][INFO ][transport                ] [Mister Jip] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2018-02-02 18:27:44,445][INFO ][discovery                ] [Mister Jip] elasticsearch/EGYZb-bgTPm8hD_Ni8nfqg
+[2018-02-02 18:27:47,496][INFO ][cluster.service          ] [Mister Jip] new_master {Mister Jip}{EGYZb-bgTPm8hD_Ni8nfqg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-02-02 18:27:47,530][INFO ][http                     ] [Mister Jip] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2018-02-02 18:27:47,531][INFO ][node                     ] [Mister Jip] started
+[2018-02-02 18:27:47,598][INFO ][gateway                  ] [Mister Jip] recovered [0] indices into cluster_state
+[2018-02-02 18:28:17,530][WARN ][cluster.routing.allocation.decider] [Mister Jip] high disk watermark [90%] exceeded on [EGYZb-bgTPm8hD_Ni8nfqg][Mister Jip][/Users/ppsreejith/Dropbox/MyStuff/Code/acwork/elasticsearch-2.4.1/data/elasticsearch/nodes/0] free: 7.4gb[6.6%], shards will be relocated away from this node
+[2018-02-02 18:28:17,531][INFO ][cluster.routing.allocation.decider] [Mister Jip] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-02-02 18:28:47,559][WARN ][cluster.routing.allocation.decider] [Mister Jip] high disk watermark [90%] exceeded on [EGYZb-bgTPm8hD_Ni8nfqg][Mister Jip][/Users/ppsreejith/Dropbox/MyStuff/Code/acwork/elasticsearch-2.4.1/data/elasticsearch/nodes/0] free: 7.4gb[6.6%], shards will be relocated away from this node
+[2018-02-02 18:29:17,567][WARN ][cluster.routing.allocation.decider] [Mister Jip] high disk watermark [90%] exceeded on [EGYZb-bgTPm8hD_Ni8nfqg][Mister Jip][/Users/ppsreejith/Dropbox/MyStuff/Code/acwork/elasticsearch-2.4.1/data/elasticsearch/nodes/0] free: 7.4gb[6.6%], shards will be relocated away from this node
+[2018-02-02 18:29:17,568][INFO ][cluster.routing.allocation.decider] [Mister Jip] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-02-02 18:29:47,575][WARN ][cluster.routing.allocation.decider] [Mister Jip] high disk watermark [90%] exceeded on [EGYZb-bgTPm8hD_Ni8nfqg][Mister Jip][/Users/ppsreejith/Dropbox/MyStuff/Code/acwork/elasticsearch-2.4.1/data/elasticsearch/nodes/0] free: 7.4gb[6.6%], shards will be relocated away from this node
+[2018-02-02 18:30:17,583][WARN ][cluster.routing.allocation.decider] [Mister Jip] high disk watermark [90%] exceeded on [EGYZb-bgTPm8hD_Ni8nfqg][Mister Jip][/Users/ppsreejith/Dropbox/MyStuff/Code/acwork/elasticsearch-2.4.1/data/elasticsearch/nodes/0] free: 7.4gb[6.6%], shards will be relocated away from this node
+[2018-02-02 18:30:17,583][INFO ][cluster.routing.allocation.decider] [Mister Jip] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-02-02 18:30:47,588][WARN ][cluster.routing.allocation.decider] [Mister Jip] high disk watermark [90%] exceeded on [EGYZb-bgTPm8hD_Ni8nfqg][Mister Jip][/Users/ppsreejith/Dropbox/MyStuff/Code/acwork/elasticsearch-2.4.1/data/elasticsearch/nodes/0] free: 7.4gb[6.6%], shards will be relocated away from this node
+[2018-02-02 18:31:00,768][INFO ][node                     ] [Mister Jip] stopping ...
+[2018-02-02 18:31:00,779][INFO ][node                     ] [Mister Jip] stopped
+[2018-02-02 18:31:00,779][INFO ][node                     ] [Mister Jip] closing ...
+[2018-02-02 18:31:00,784][INFO ][node                     ] [Mister Jip] closed
+[2018-02-02 18:33:46,197][INFO ][node                     ] [Ethan Edwards] version[2.4.1], pid[25643], build[c67dc32/2016-09-27T18:57:55Z]
+[2018-02-02 18:33:46,199][INFO ][node                     ] [Ethan Edwards] initializing ...
+[2018-02-02 18:33:47,209][INFO ][plugins                  ] [Ethan Edwards] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-02-02 18:33:47,266][INFO ][env                      ] [Ethan Edwards] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [7.4gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2018-02-02 18:33:47,267][INFO ][env                      ] [Ethan Edwards] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-02 18:33:47,268][WARN ][env                      ] [Ethan Edwards] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2018-02-02 18:35:08,258][INFO ][node                     ] [Antiphon the Overseer] version[2.4.1], pid[25750], build[c67dc32/2016-09-27T18:57:55Z]
+[2018-02-02 18:35:08,260][INFO ][node                     ] [Antiphon the Overseer] initializing ...
+[2018-02-02 18:35:09,292][INFO ][plugins                  ] [Antiphon the Overseer] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-02-02 18:35:09,355][INFO ][env                      ] [Antiphon the Overseer] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [7.4gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2018-02-02 18:35:09,356][INFO ][env                      ] [Antiphon the Overseer] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-02 18:35:09,357][WARN ][env                      ] [Antiphon the Overseer] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]

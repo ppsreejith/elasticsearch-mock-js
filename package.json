@@ -1,0 +1,17 @@
+{
+  "name": "elasticsearch-mock-js",
+  "version": "1.0.0",
+  "description": "Creates an elasticsearch server for mockign purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "elasticsearch",
+    "js",
+    "mock",
+    "server"
+  ],
+  "author": "ppsreejith",
+  "license": "MIT"
+}
