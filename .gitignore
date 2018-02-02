@@ -1,1 +1,3 @@
 node_modules
+elasticsearch/data
+elasticsearch/logs
