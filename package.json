@@ -13,5 +13,8 @@
     "server"
   ],
   "author": "ppsreejith",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "detect-port": "^1.2.2"
+  }
 }
