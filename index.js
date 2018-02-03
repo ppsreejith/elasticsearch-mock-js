@@ -6,7 +6,7 @@ let _ES = false;
 
 const checkIfUp = (done, ct = 0) => {
   spawn('curl', [`localhost:${PORT}`]).on('close', code => {
-    if (code === 0 || ct === 10) {
+    if (code === 0 || ct === 15) {
       return done(code);
     }
     setTimeout(() => checkIfUp(done, ct + 1), 1000);
