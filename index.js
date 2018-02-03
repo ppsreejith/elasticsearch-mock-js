@@ -6,7 +6,7 @@ let _ES = false;
 
 const checkIfUp = (done, ct = 0) => {
   spawn('curl', [`localhost:${PORT}`]).on('close', code => {
-    if (code === 0 || ct === 15) {
+    if (code === 0 || ct === 25) {
       return done(code);
     }
     setTimeout(() => checkIfUp(done, ct + 1), 1000);
@@ -23,7 +23,8 @@ const start = (done) => {
     }
     const clearData = spawn('rm', ['-rf', `${__dirname}/elasticsearch/logs`, `${__dirname}/elasticsearch/data`]);
     clearData.on('close', code => {
-      _ES = spawn(`${__dirname}/elasticsearch/bin/elasticsearch`);
+      const esPath = `${__dirname}/elasticsearch/bin/elasticsearch`;
+      _ES = spawn(esPath);
       checkIfUp(done);
     });
 
