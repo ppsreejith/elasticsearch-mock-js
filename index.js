@@ -21,9 +21,9 @@ const start = (done) => {
     if (PORT !== _port) {
       throw `Port ${PORT} not available`
     }
-    const clearData = spawn('rm', ['-rf', 'elasticsearch/logs', 'elasticsearch/data']);
+    const clearData = spawn('rm', ['-rf', `${__dirname}/elasticsearch/logs`, `${__dirname}/elasticsearch/data`]);
     clearData.on('close', code => {
-      _ES = spawn('elasticsearch/bin/elasticsearch');
+      _ES = spawn(`${__dirname}/elasticsearch/bin/elasticsearch`);
       checkIfUp(done);
     });
 
