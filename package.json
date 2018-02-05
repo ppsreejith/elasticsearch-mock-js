@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-mock-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Creates an elasticsearch server for mocking purposes",
   "main": "index.js",
   "scripts": {
