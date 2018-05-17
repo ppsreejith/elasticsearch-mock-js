@@ -24,7 +24,7 @@ const start = (done) => {
     const clearData = spawn('rm', ['-rf', `${__dirname}/elasticsearch/logs`, `${__dirname}/elasticsearch/data`]);
     clearData.on('close', code => {
       const esPath = `${__dirname}/elasticsearch/bin/elasticsearch`;
-      _ES = spawn(esPath);
+      _ES = spawn(esPath, ['-Des.insecure.allow.root=true']);
       checkIfUp(done);
     });
 
